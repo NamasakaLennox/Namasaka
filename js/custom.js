@@ -47,7 +47,7 @@ btn.addEventListener('click', function handleClick(event) {
     });
     $.ajax({
 	method: 'POST',
-	url: 'https://formsubmit.co/lennoxnamasaka@gmail.com',
+	url: 'https://formsubmit.co/f463bc2ea67d6fedabec13de4edeaad6',
 	dataType: 'json',
 	accepts: 'application/json',
 	data: send,
