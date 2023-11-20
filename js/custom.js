@@ -51,7 +51,7 @@ btn.addEventListener('click', function handleClick(event) {
 	dataType: 'json',
 	accepts: 'application/json',
 	data: send,
-	success: () => console.log('Message Sent'),
+	success: (data) => console.log(data),
 	error: (err) => console.log(err)
     });
 
