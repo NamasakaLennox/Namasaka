@@ -49,7 +49,7 @@ a:hover {
 }
 
 .navbar-brand .logo {
-    height: 70px;
+    height: 40px;
 }
 
 p {
@@ -572,4 +572,9 @@ b, strong {
     display: inline-block;
     vertical-align: top;
   }
+}
+
+div.blog-txt {
+    max-width: 80%;
+    margin: auto;
 }
